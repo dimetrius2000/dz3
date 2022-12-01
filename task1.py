@@ -1,6 +1,7 @@
 import functools
 import time
 
+
 def timer(func):
     @functools.wraps(func)
     def _wrapper(*args, **kwargs):
