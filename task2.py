@@ -1,6 +1,7 @@
 import uuid
 import hashlib
 
+
 def hash_password(password):
     salt = uuid.uuid4().hex
     print('Строка для хранения в базе данных: '+hashlib.sha256(salt.encode() + password.encode()).hexdigest() + salt)
