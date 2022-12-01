@@ -1,5 +1,6 @@
 s = str(input("Введите строку:"))
 
+
 print(f"Строка {s} имеет длину {len(s)} символов")
 subs_set = set()
 uniq_dict = {}
